@@ -1,12 +1,5 @@
-## microservices-showcase
+# drone-test
 
+This package is for testing Drone CI located on https://drone.shivaluma.dev
 
-This repository is for implementing some basic system with microservices architecture in Go.
-
-
-### List of projects
-
-- `drone-test`: A simple project for testing Drone CI self-hosted.
-
-
-Author: shivaluma (Thanh Viet Nguyen)
+A sample http server is available at https://drone-test.shivaluma.dev
