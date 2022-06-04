@@ -5,10 +5,14 @@ import (
 	"io/ioutil"
 	"net/http"
 	"testing"
+	"time"
 )
 
 func TestApplicationRunnable(t *testing.T) {
 	go main()
+
+	time.Sleep(time.Second * 1)
+
 	res, err := http.Get("http://0.0.0.0:1001")
 
 	if err != nil {
