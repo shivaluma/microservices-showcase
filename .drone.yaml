@@ -27,6 +27,7 @@ steps:
       password:
         from_secret: dockerhub_password
       repo: shivaluma/drone-test
+      compress: true
 
 volumes:
   - name: deps
