@@ -9,7 +9,7 @@ import (
 
 func TestApplicationRunnable(t *testing.T) {
 	go main()
-	res, err := http.Get("http://127.0.0.1:1001/")
+	res, err := http.Get("http://0.0.0.0:1001")
 
 	if err != nil {
 		t.Errorf("Error when calling server: %v", err)
